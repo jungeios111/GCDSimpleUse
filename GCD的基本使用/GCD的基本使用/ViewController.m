@@ -22,6 +22,8 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     [self asyncMain];
+    
+    NSLog(@"这是一个测试demo");
 }
 
 /**
